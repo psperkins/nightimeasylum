@@ -22,6 +22,14 @@
             </ul>
         </header>
     </section>
+    <div class="sidebar-left">
+        <?php if ( is_active_sidebar( 'main-page-sidebar' ) ) { ?>
+            <ul id="sidebar">
+                <?php dynamic_sidebar('main-page-sidebar'); ?>
+            </ul>
+        <?php } ?>
+    </div>
+
 </div>
 
 
