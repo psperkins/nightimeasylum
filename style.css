@@ -1,0 +1,14 @@
+/* main wp stylesheet */
+
+/*
+Theme Name: Nightime Asylum
+Author: PS Perkins, Wordpress Wizard
+Author URI: https://mystictapedeck.com
+Description:  Basic theme for Nightime Asylum PR Services
+Requires at least: 6.1
+Tested up to: 6.9
+Requires PHP: 8.2
+Version: 1.0
+Text Domain: nightimeasylum
+*/
+@import "css/custom.css";

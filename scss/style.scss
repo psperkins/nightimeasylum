@@ -1,0 +1,38 @@
+
+$bgcolor: #3B2D48;
+$maingreen: #27DE1A;
+$dark_green: #136F0D;
+$purple: #AA23FF;
+$dark_purple: #7819B3;
+
+
+html {
+  height: 100%;
+  background: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(59, 45, 72, 1));
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: $maingreen;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5rem;
+  transform: rotate(-9deg);
+  position: relative;
+  top: -80px;
+}
+
+.services {
+  li {
+    color: $dark_green;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
