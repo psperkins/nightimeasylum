@@ -1,17 +1,12 @@
-#wpwrap {
-  position: unset !important;
+html {
+  background: rgb(59, 45, 72);
 }
 
-html {
-  height: 100%;
+body {
+  min-height: 100%;
   background: #000000;
   background-image: linear-gradient(rgb(0, 0, 0), rgb(59, 45, 72));
   font-family: "Helvetica", Arial, sans-serif;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -20,15 +15,87 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 4.5rem;
-  transform: rotate(-9deg);
+  transform: rotate(-13deg);
   position: relative;
-  top: -80px;
+}
+
+h2 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-bottom: 4.5rem;
+  transform: rotate(-7deg);
+}
+
+h4 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+  text-decoration: underline;
+  margin-top: 1.75rem;
+  margin-bottom: 4.5rem;
+  transform: rotate(-7deg);
+}
+
+.content {
+  margin-bottom: 1rem;
+}
+
+header {
+  min-height: 250px;
 }
 
 .services li {
   color: #136F0D;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.sidebar-left {
+  font-weight: bold;
+  background: #000;
+}
+
+.main-content {
+  color: #a7aaad;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.main-widget {
+  color: #136F0D;
+}
+
+.blog.title {
+  font-size: 2.5rem;
+  color: #136F0D;
+  font-family: "Jolly Lodger", system-ui;
+}
+.blog.body {
+  padding-top: 2rem;
+}
+
+byline {
+  color: #7819B3;
+}
+
+footer {
+  width: 100%;
+  margin-top: 2.5rem;
+  background: #000;
+  min-height: 300px;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -1,38 +1,20 @@
-<!DOCTYPE html>
+ <?php get_header(); ?>
 
-<html>
-<head>
-    <?php wp_head(); ?>
-</head>
-<body>
-<div class="container">
-    <section name="header">
-        <header>
-            <h1>Nightime Asylum PR</h1>
-            <ul class="services">
-                <li>Radio/print Production</li>
-                <li>Tour Promotion</li>
-                <li>Interviews / In-Studios</li>
-                <li>Asset Management</li>
-                <li>Creative Consultation</li>
-                <li>Marketing Strategies</li>
-                <li>Release Scheduling</li>
-                <li>Label Services</li>
-                <li>Referral Discounts</li>
-            </ul>
-        </header>
-    </section>
-    <div class="sidebar-left">
-        <?php if ( is_active_sidebar( 'main-page-sidebar' ) ) { ?>
-            <ul id="sidebar">
-                <?php dynamic_sidebar('main-page-sidebar'); ?>
-            </ul>
-        <?php } ?>
+ <div class="container content">
+    <div class="row">
+        <div class="sidebar-left col-sm-4">
+            <?php if ( is_active_sidebar( 'main-page-sidebar' ) ) { ?>
+                <ul id="sidebar">
+                    <?php dynamic_sidebar('main-page-sidebar'); ?>
+                </ul>
+            <?php } ?>
+        </div>
+        <div class="main-content col-sm-8">
+           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                <?php get_template_part('template-parts/blog'); ?>
+           <?php endwhile; else: endif; ?>
+        </div>
     </div>
-
 </div>
 
-
-</body>
-<?php wp_footer(); ?>
-</html>
+<?php get_footer(); ?>
