@@ -98,4 +98,8 @@ footer {
   min-height: 300px;
 }
 
+.regular-text, .cmb2-wrap input.cmb2-text-medium {
+  width: 100%;
+}
+
 /*# sourceMappingURL=custom.css.map */

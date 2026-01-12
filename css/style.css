@@ -15,8 +15,42 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 4.5rem;
-  transform: rotate(-9deg);
+  transform: rotate(-13deg);
   position: relative;
+}
+
+h2 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-bottom: 4.5rem;
+  transform: rotate(-7deg);
+}
+
+h4 {
+  color: #AA23FF;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+  text-decoration: underline;
+  margin-top: 1.75rem;
+  margin-bottom: 4.5rem;
+  transform: rotate(-7deg);
+}
+
+.content {
+  margin-bottom: 1rem;
 }
 
 header {
@@ -31,6 +65,7 @@ header {
 
 .sidebar-left {
   font-weight: bold;
+  background: #000;
 }
 
 .main-content {
@@ -43,13 +78,28 @@ header {
   color: #136F0D;
 }
 
-.blog .title {
-  font-size: 1.75rem;
+.blog.title {
+  font-size: 2.5rem;
   color: #136F0D;
   font-family: "Jolly Lodger", system-ui;
 }
-.blog byline {
-  color: #AA23FF;
+.blog.body {
+  padding-top: 2rem;
+}
+
+byline {
+  color: #7819B3;
+}
+
+footer {
+  width: 100%;
+  margin-top: 2.5rem;
+  background: #000;
+  min-height: 300px;
+}
+
+.regular-text {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
